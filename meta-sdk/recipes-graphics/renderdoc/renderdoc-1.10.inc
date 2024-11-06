@@ -5,7 +5,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=df7ea9e196efc7014c124747a0ef9772"
 
 SRCREV = "381fdbe06bc413fb95faaf4ff9461b1e89be7406"
-SRC_URI = "git://github.com/baldurk/${BPN}.git;protocol=http;branch=v1.x \
+SRC_URI = "git://github.com/baldurk/${BPN}.git;protocol=https;branch=v1.x \
 	   file://0001-renderdoc-use-xxd-instead-of-cross-compiling-shim-bi.patch \
 "
 S = "${WORKDIR}/git"

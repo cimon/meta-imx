@@ -17,7 +17,7 @@ OPENCV_SRC ?= "git://github.com/nxp-imx/opencv-imx.git;protocol=https"
 SRCBRANCH = "4.4.0_imx"
 SRC_URI =+ "${OPENCV_SRC};branch=${SRCBRANCH};name=opencv"
 SRC_URI += " \
-    git://github.com/opencv/opencv_extra.git;destsuffix=extra;name=extra \
+    git://github.com/opencv/opencv_extra.git;destsuffix=extra;name=extra;protocol=https \
     https://github.com/tiny-dnn/tiny-dnn/archive/v1.0.0a3.tar.gz;destsuffix=git/3rdparty/tinydnn/tiny-dnn-1.0.0a3;name=tinydnn;unpack=false \
     file://OpenCV_DNN_examples.patch \
     file://0001-Add-smaller-version-of-download_models.py.patch;patchdir=../extra \

@@ -2,7 +2,7 @@ SUMMARY = "Caffe protobuf files - used in ARMNN for Caffe network models"
 LICENSE = "BSD-2-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=91d560803ea3d191c457b12834553991"
 
-SRC_URI = "git://github.com/BVLC/caffe.git;branch=${BRANCH}"
+SRC_URI = "git://github.com/BVLC/caffe.git;branch=${BRANCH};protocol=https"
 
 BRANCH = "master"
 SRCREV = "99bd99795dcdf0b1d3086a8d67ab1782a8a08383"

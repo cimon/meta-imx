@@ -8,8 +8,8 @@ SECTION = "graphics"
 
 S = "${WORKDIR}/git"
 DEST_DIR = "${S}/external" 
-SRC_URI = "git://github.com/KhronosGroup/SPIRV-Tools.git;name=spirv-tools \
-           git://github.com/KhronosGroup/SPIRV-Headers.git;name=spirv-headers;destsuffix=${DEST_DIR}/spirv-headers \
+SRC_URI = "git://github.com/KhronosGroup/SPIRV-Tools.git;name=spirv-tools;branch=main;protocol=https \
+           git://github.com/KhronosGroup/SPIRV-Headers.git;name=spirv-headers;destsuffix=${DEST_DIR}/spirv-headers;branch=main;protocol=https \
 "
 SRCREV_spirv-tools = "9b3cc3e05337358d0bd9fec1b7a51e3cbf55312b"
 SRCREV_spirv-headers = "38cafab379e5d16137cb97a485b9385191039b92"

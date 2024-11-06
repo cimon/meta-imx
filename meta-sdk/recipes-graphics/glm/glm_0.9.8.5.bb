@@ -10,7 +10,7 @@ SECTION = "libs"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://copying.txt;md5=4431606d144252143c9c3df384a74cad"
 
-SRC_URI = "git://github.com/g-truc/glm;branch=0.9.8 \
+SRC_URI = "git://github.com/g-truc/glm;branch=0.9.8;protocol=https \
            file://Fixed-GCC-7.3-compile.patch"
 SRCREV = "6fa203eeb7fbcbb6f620501fad40359c8a456049"
 S = "${WORKDIR}/git"

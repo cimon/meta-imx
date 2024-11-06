@@ -10,7 +10,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://readme.md;beginline=19;endline=20;md5=ab03b667ee630c1abb1add70365a50fb"
 
 SRC_URI = " \
-    git://github.com/g-truc/gli;branch=0.8.2 \
+    git://github.com/g-truc/gli;protocol=https;branch=0.8.2 \
     file://0001-Set-C-standard-through-CMake-standard-options.patch \
 "
 SRCREV = "30808550a20ca53a255e6e1e77070493eda7b736"

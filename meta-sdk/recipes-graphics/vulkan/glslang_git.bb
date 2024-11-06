@@ -15,7 +15,7 @@ LIC_FILES_CHKSUM = "file://glslang/Include/Types.h;beginline=1;endline=36;md5=26
 S = "${WORKDIR}/git"
 
 SRCREV = "1bc601c674aecc2fee0dee8ff7a118db76b4c439"
-SRC_URI = "git://github.com/KhronosGroup/glslang \
+SRC_URI = "git://github.com/KhronosGroup/glslang;branch=main;protocol=https \
 "
 
 FILES_${PN} += "${libdir}/*"
