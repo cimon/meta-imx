@@ -10,7 +10,7 @@ SRC_URI[tinydnn.sha256sum] = "e2c61ce8c5debaa644121179e9dbdcf83f497f39de853f8dd5
 SRCREV_FORMAT_append = "_extra"
 
 SRC_URI_remove = " \
-    git://github.com/opencv/opencv.git;name=opencv \
+    git://github.com/opencv/opencv.git;name=opencv;branch=master;protocol=https \
     file://0002-Make-opencv-ts-create-share-library-intead-of-static.patch \
 "
 OPENCV_SRC ?= "git://github.com/nxp-imx/opencv-imx.git;protocol=https"
